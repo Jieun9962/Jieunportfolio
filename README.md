@@ -3,7 +3,7 @@ I planned, designed, and built this portfolio myself, from the initial structure
 The goal is to demonstrate not only my professional experience in web accessibility, but also how accessibility can enhance usability and create a better experience for everyone.
 
 ## Live Demo
-🌐 https://Jieun9962.github.io/
+🌐 https://Jieun9962.github.io/Jieunportfolio/
 
 ## Project Goals
 - Build an accessible portfolio following WCAG guidelines
