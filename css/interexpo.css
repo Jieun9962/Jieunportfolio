@@ -1,0 +1,85 @@
+@import url('../common/css/core.css');
+@import url('../css/common.css');
+@import url('../css/porjectcommon.css');
+
+body{background-color: #0064ab;}
+
+#instruction_box{padding-bottom: 10vw;}
+
+.Interexpocover{
+    position: absolute; width: 50vw;
+    right: 0; top: 0.8vw; transform: rotate(6deg);
+    animation-name: interexpo_boo;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: all 0.5s ease-in-out;
+}
+
+@keyframes interexpo_boo{
+    from {top: 1.6vw;}
+    to {top: -1.6vw;}
+}
+
+.content{
+    width: 45%; 
+    margin: 4vw 0;
+    font-size: 0.9rem;
+    padding-top: 1.5vw;
+    padding-bottom: 1vw;
+}
+
+.project_title>h1{font-size: 3vw;}
+.project_title>h2{font-size: 2.8vw;}
+.project_title>.line{
+    width: 35vw; height: 1px; background-color: #e9e9e9;
+}
+
+.project_info{
+    margin-top: 2vw;
+}
+
+.info_size{
+    font-size: 1vw;
+}
+
+.web:hover,.web:focus-visible {
+    border: 1px solid #e9e9e9;
+    background-color: #e9e9e9;
+    color: #0064ab;
+    outline: none;
+}
+
+.ani_bt{margin-top: 8vw;} 
+
+.project_Wrap{margin-top: -8%;}
+
+@media (max-width: 1200px){
+
+    .Interexpocover{
+    z-index: 0;
+    }
+
+    @keyframes interexpo_boo{
+    from {top: -6vw;}
+    to {top: -10vw;}
+    }
+
+    .content{
+    width: 45%; 
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+    padding-bottom: 0vw;
+    }
+
+    .ani_bt{margin-top: 3.6vw;} 
+
+}
+
+@media (max-width: 500px){
+    @keyframes interexpo_boo{
+        from {top: -8vw;}
+        to {top: -10vw;}
+    }
+}

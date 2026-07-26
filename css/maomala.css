@@ -1,0 +1,51 @@
+@import url('../css/common.css');
+@import url('../css/porjectcommon.css');
+@import url('../common/css/core.css');
+
+
+body{background-color: #4A4A4A;}
+.content{width: 45%; margin-top: 7.5vw; margin-bottom: 2vw; padding-top: 1vw;}
+.project_title>h1{font-size: 3vw;}
+.project_title>h2{font-size: 2.8vw;}
+.project_title>.line{
+    width: 36vw; height: 1px; background-color: #F9F9F9;
+}
+.inst{margin-top: 0vw;}
+
+#instruction_box{padding-bottom: 5.6vw;}
+
+.maocover, .move_img{position: absolute;}
+.maocover{top: -0.5vw; right: 8vw; width: 35vw;}
+.move_img{
+    top: 18vw; right: 4vw; width: 16vw;
+    position: absolute; top: 24vw;
+    animation-name: boo_mao;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: all 0.5s ease;
+}
+
+.ani_bt{margin-top: 2vw;} 
+
+.project_info{
+    margin-top: 2vw;
+}
+.info_size{
+    font-size: 1vw;
+}
+
+@keyframes boo_mao{
+    from {top: 18vw;}
+    to {top: 14vw;}
+}
+
+.figma{width: 100%; height: 50vw; border: none; margin: 0; border-radius: 0 0 20px 20px}
+.project_Wrap img:last-of-type{border-radius: 0}
+
+@media (max-width: 1200px){
+    .content{margin-top: 8vw !important;}
+    .cov_img, .ani_bt{display: none !important;}
+    .maocover{width: 50vw !important; margin-top: -16% !important;}
+}
