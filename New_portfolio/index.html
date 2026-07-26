@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jieun's Portfolio</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="JS/index.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul role="list">
+                <li class="menu_tab" role="listiem"><a href="#philosophy">PHILOSOPHY</a></li>
+                <li class="menu_tab" role="listiem"><a href="#project">PROJECTS</a></li>
+                <li class="menu_tab" role="listiem"><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="sr-only">Portfolio Main Page</h1>
+        <section id="main_cover" class="bunny">
+            <img class="parallex foreground" src="img/bunnies.png" alt="Two twin rabbits blending Korean zodiac symbolism with zodiac sign motifs leap lightly side by side. A Korean style silk ribbon curves naturally into a circle around them while three small stars twinkle nearby. Two orchid stems in the background form a symmetrical pair.">
+            <img class="parallex background" src="img/bunnies_orchid.png" alt="">
+        </section>
+        <section id="philosophy">
+            <h2 class="sr-only">philosophy</h2>
+            <div class="describtion">
+                <p>
+                    I believe accessibility is more than compliance. <br>
+                    It is the foundation of a better user experience. <br>
+                    Drawing on my experience in web accessibility analysis, <br>
+                    I identify opportunities to improve UX and UI <br> while ensuring digital products remain inclusive, intuitive,
+                    and accessible <br> across devices through responsive web design.
+                </p>
+            </div>
+        </section>
+        <section id="project">
+            <div class="decoration">
+                <img class="deco_img" src="img/orchid_white.png" alt="">
+            </div>
+            <h2 class="visible_heading">PROJECTS</h2>
+            <ul role="list" class="proj_wrap">
+                <li role="listitem" class="proj_list">
+                    <div class="proj_bt">
+                        <button class="acc_bt" aria-expanded="false" aria-controls="acc_control">1. Accessibility</button>
+                        <svg class="acc_arrow" width="20" height="12" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M1.50024 1.50024L12.6763 20.9681C13.8293 22.9767 16.7279 22.9747 17.8809 20.9662C21.7722 14.1878 24.6054 9.2526 29.0558 1.50024" stroke="#E9E9E9" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="acc_des" id="acc_control" aria-hidden="true">
+                        <div class="proj_content">
+                            <p>
+                                This personal case study walks through a hands-on accessibility audit of a real webpage using WCAG standards.<br> Rather than just flagging problems, I focused on explaining the reasoning behind each guideline <br> and what it would actually take to bring the page into compliance.
+                            </p>
+                            <div class="notion_bt">
+                                <a href="https://app.notion.com/p/Improving-Accessibility-Project-36dd4507cd488023ba83fbccecbc21c1?source=copy_link" class="link_bt" title="Improving Accessibility Project">
+                                    Notion
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li role="listitem">
+                    <div class="proj_bt">
+                        <button class="design_bt" aria-expanded="false" aria-controls="design_control">2. UI/UX Design / Develope </button>
+                        <svg class="acc_arrow" width="20" height="12" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M1.50024 1.50024L12.6763 20.9681C13.8293 22.9767 16.7279 22.9747 17.8809 20.9662C21.7722 14.1878 24.6054 9.2526 29.0558 1.50024" stroke="#E9E9E9" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div id="design_control" aria-hidden="true">
+                        <ul role="list" class="menu_box">
+                            <li role="listitem" class="project_box">
+                                <img src="img/sidmool_icon.png" alt="A laptop showing redesigned sidmool cosmetic brand's webpage on screen.">
+                                <a href="sidmool.html" class="pro_btn" title="webpage redisgn page">SidMool</a>
+                            </li>
+                            <li role="listitem" class="project_box">
+                                <img src="img/interexpo_icon.png" alt="A desktop showing redesigned Inter Expo webpage on screen.">
+                                <a href="interexpo.html" class="pro_btn" title="webpage redisgn page">InterExpo</a>
+                            </li>
+                            <li role="listitem" class="project_box">
+                                <img src="img/bookbook_mockup_icon.png" alt="A mobile phone showing an redesigned BookJukBookJuk application on screen.">
+                                <a href="bookbook.html" class="pro_btn" title="application redesign">BookJuk</a>
+                            </li>
+                            <li role="listitem" class="project_box">
+                                <img src="img/maomala_icon.png" alt="A mobile phone showing an Maomala application on screen.">
+                                <a href="maomala.html" class="pro_btn" title="application disgn">MaoMala</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li role="listitem">
+                    <div class="proj_bt">
+                        <button aria-expanded="false" class="graph_bt" aria-controls="graph_control">3. Graphic Design</button>
+                        <svg class="acc_arrow" width="20" height="12" viewBox="0 0 31 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M1.50024 1.50024L12.6763 20.9681C13.8293 22.9767 16.7279 22.9747 17.8809 20.9662C21.7722 14.1878 24.6054 9.2526 29.0558 1.50024" stroke="#E9E9E9" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div id="graph_control" aria-hidden="true">
+                        <ul role="list" class="menu_box">
+                            <li role="listitem" class="project_box">
+                                <img src="img/WHYBLACK_ICON.png" alt="A redesigned why black bubble tea brand logo">
+                                <a href="whyblack.html" class="pro_btn" title="brand logo design">WhyBlack</a>
+                            </li>
+                            <li role="listitem" class="project_box">
+                                <img src="img/LOCALFOOD_ICON.png" alt="Three vegetable mascots for local food market are shown">
+                                <a href="local_food.html" class="pro_btn" title="Pyeongtaek local food market event page and mascot character">Mascot</a>
+                            </li>
+                    </ul>
+                    </div>
+                    
+                </li>
+            </ul>
+        </section>
+        <section id="contact">
+            <div class="decoration">
+                <img class="deco_img_2" src="img/ribbon_3.png" alt="">
+            </div>
+            <h2 class="visible_heading">CONTACT</h2>
+            <div class="contact_info">
+                <ul role="list">
+                    <li role="listitem">LinkedIn : www.linkedin.com/in/zeun99</li>
+                    <li role="listitem">E-Mail : jieunstutz8836@gmail.com</li>
+                </ul>
+            </div>
+        </section>
+                <a class="gototop" href="" role="button" aria-label="Go to Top"><img src="img/gototop.png" alt=""></a>
+    </main>
+</body>
+</html>

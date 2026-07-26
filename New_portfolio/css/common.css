@@ -1,0 +1,263 @@
+@import url(../common/css/core.css);
+@import url(../JS/common.js);
+@font-face {
+    font-family: 'PyeongchangPeace';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PyeongchangPeace';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pyeongchang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChang-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pyeongchang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChang-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+body{overflow-x: hidden;}
+
+.hidden{display: none;}
+.sr-only {
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  clip-path: polygon(0 0, 0 0, 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+main{position: relative;}
+header{
+    padding: 2.5vw 0;
+    color: #e9e9e9;
+    width: 80%; margin: 1vw auto;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1rem;
+}
+
+header > a {
+    text-align: left;
+    margin-left: 0;
+    margin-right: auto; 
+    
+    text-decoration: none;
+    display: inline-block;
+    
+    transition: color 0.2s ease, outline-color 0.2s ease;
+}
+
+header> a:hover, header> a:focus-visible{
+    font-weight: bold;
+}
+
+header > a:focus-visible, .web:focus-visible {
+    outline: 2px solid #e9e9e9;
+}
+
+.back{
+    padding-right: 0.5vw;
+}
+
+#instruction_box{
+    color: #e9e9e9; font-family: 'PyeongChang';
+    width: 80%; margin: 0 auto;
+    line-height: 1.6;
+    position: relative;
+} 
+
+.project_title{
+    font-family: 'PyeongChangPeace';
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 1.5vw;
+}
+
+.project_title .line {
+    flex: 1; 
+    min-width: 20px;
+}
+
+.web{
+    border: 1px solid #F9F9F9; 
+    border-radius: 14vw; 
+    font-size: 0.9rem;
+    color: #e9e9e9; font-family: 'PyeongChang'; padding: 0.55vw 2.1vw;
+    margin-top: 3.4vw;
+    position: absolute; 
+}
+
+.small{
+    color: #ececec; 
+    font-size: 0.8rem;
+    margin-top: 1vw;}
+.project_info{font-size: 1rem;}
+.info_size{font-size: 1rem;}
+
+ul, li{
+    list-style: none;
+}
+
+.tool_box {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    width: 100%;
+    margin: 1.5rem 0;  
+    height: auto;
+}
+
+.tool_box > p {
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.tool_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.tool_list>li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.4vw;
+    padding: 0;
+    line-height: 1;
+}
+.tool_list>li>img{width: 2.8vw; height: 2.8vw;}
+
+.ani_bt {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+    z-index: 2;
+}
+
+.ani_bt:focus-visible{
+    border: 1px solid #e9e9e9 !important;
+}
+
+.project_Wrap{width: 100%; padding-bottom: 8vw;}
+.project_Wrap>div{width: 70%; margin: 0 auto;}
+.project_Wrap img{width: 100%; display: block;}
+.project_Wrap img:first-of-type{border-radius: 2vw 2vw 0 0;}
+.project_Wrap img:last-of-type{border-radius: 0 0 2vw 2vw;}
+
+.gototop{position: fixed; right: 2vw; bottom: 2vw;} 
+.gototop>img{width: 8vw; opacity: 2; transition: all 0.4s ease-in;}
+
+@media (max-width: 1200px){
+    header{
+    padding: 4vw 0;
+    font-size: 0.9rem;
+    }
+
+    #instruction_box {padding-bottom: 0vw !important; }
+
+    .content {
+        width: 100%;
+        margin: 3vw 0;
+    }
+
+    .cov_img, .bookbook_cover, .maocover, .whycover, .localcover{
+        position: relative; 
+        margin-top: 200vw;
+        right: auto;
+        display: block;
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+        z-index: 0;
+    }   
+
+    .web {
+        position: relative;
+        display: inline-block;
+        padding: 0.75rem 2rem;
+        font-size: 1rem;
+        z-index: 2;
+        margin-top: 0vw;
+    }
+
+    .ani_bt{
+        position: relative;
+        z-index: 10 !important;
+        pointer-events: auto !important;
+    }
+
+    .project_Wrap{margin-top: -13.6%;}
+}
+
+@media (max-width: 900px){
+    #main{
+        width: 100%; height: auto; line-height: 1.6;
+    }
+
+    .tool_list>li>img{width: 4vw; height: 4vw;}
+
+    .project_Wrap>div{width: 82%; margin: 0 auto;}
+
+    .gototop{right: 2vw; bottom: 4vw;} 
+    .gototop>img{width: 5vw;}
+}
+
+@media (max-width: 760px){
+    header{
+    padding: 6vw 0;
+    font-size: 0.9rem;
+    }
+
+    .inst{font-size: 0.7rem; margin-top: 2vw;}
+    .small{font-size: 0.7rem; }
+    .project_info, .info_size, .tool_box>p{font-size: 0.8rem;}
+    .tool_list>li{
+        margin-right: 1vw;
+    }
+    .web {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 450px){
+
+    .project_title>h1, .project_title>h2{
+    font-size: 1rem;
+    }
+
+    .small, .project_info{margin-top: 3vw;}
+
+    .tool_list>li>img{width: 6vw; height: 6vw;}
+
+    .web{
+        padding: 2vw 4vw;
+    }
+
+}
