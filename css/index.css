@@ -51,6 +51,26 @@ button{
 
 h2{font-family: 'PyeongchangPeace';}
 
+/*=======Bypass blocks=======*/
+.skip_link {
+    position: absolute;
+    top: -100px;
+    left: 18px;
+    z-index: 9999;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0 0 8px 8px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: top 0.2s ease;
+}
+
+.skip_link:focus {
+    top: 0;
+    outline: 2px solid #e9e9e9;
+    outline-offset: 2px;
+}
+
 /*=======screen reader=======*/
 .sr-only{
     position: absolute;
