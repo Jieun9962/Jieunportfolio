@@ -21,6 +21,8 @@ This also gave me an opportunity to revisit and build on my existing skills.
 기존 웹사이트 템플릿을 사용하지 않고, 프로젝트의 초기 기획부터 구현까지 직접 진행했습니다.
 Unlike many portfolio websites built from templates, this portfolio was designed and developed entirely by me.
 
+https://www.figma.com/design/lr1D4zzymV9o8xORXyp5wX/Portfolio_page_redisgn_Project?node-id=0-1&t=vWsSXaZ5Z9dovhtq-1
+
 This includes:
 - Information Architecture 정보 구조 설계
 - UX Planning 사용자 관점의 콘텐츠 탐색 흐름 및 화면 구성 기획
