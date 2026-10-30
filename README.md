@@ -1,9 +1,10 @@
 # portfolio🐇
 
+기존 포트폴리오 페이지를 리디자인했습니다.
 초기 정보 구조 설계부터 UX 기획, UI 디자인, 구현까지 전 과정을 직접 수행한 프로젝트 입니다.
 웹 접근성을 개발 완료 후 별도로 점검하는 항목으로 두기보다 콘텐츠 구조와 화면 구성, 마크업을 설계하는 단계부터 고려하였습니다. 실무에서 습득한 접근성 검증 관점을 실제 디자인과 개발에 반영하며 기존 역량을 점검하고 확장했습니다.
 
-I independently handled every stage of this project from information architecture and UX planning to UI design and development.
+I redesigned the existing portfolio page of mine and independently handled every stage of this project from information architecture and UX planning to UI design and development.
 Accessibility was part of the process from the beginning rather than a final step after development. I applied the accessibility evaluation skills I had gained through professional experience to the design and development process.
 This also gave me an opportunity to revisit and build on my existing skills.
 
