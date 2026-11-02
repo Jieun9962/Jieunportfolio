@@ -34,6 +34,11 @@ This includes:
 - Accessibility Testing 키보드 탐색 및 보조 기술을 활용한 접근성 점검
 - Accessibility Optimization 점검 결과를 바탕으로 마크업과 인터페이스 개선
 
+### AI 활용 범위 - AI assistance
+- Dynamic ARIA attribute updates 동적 ARIA 속성 변경
+- Accordion menu behavior 아코디언 메뉴 동작
+- Mouse-responsive animation 마우스 움직임에 반응하는 애니메이션
+
  ## Accessibility Features
  프로젝트 전반에 걸쳐 다음과 같은 접근성 요소를 고려하고 적용했습니다.
 This project was developed with accessibility in mind.
